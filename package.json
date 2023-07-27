@@ -1,0 +1,20 @@
+{
+  "name": "aula17",
+  "version": "1.0.0",
+  "description": "Esse template está configurado para criar um ambiente com as principais dependências que precisamos na aula. Para criar um novo projeto no ambiente:",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -r ts-node/register 'src/**/*.test.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  }
+}
